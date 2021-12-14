@@ -75,6 +75,10 @@ Integer Integer::operator+(const Integer & a) const {
 	return temp;
 }
 
+Integer::operator int(){
+    return *m_pInt;
+}
+
 void Integer::operator()() {
 	std::cout << *m_pInt << std::endl; 
 }

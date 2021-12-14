@@ -24,6 +24,8 @@ public:
 	Integer & operator =(Integer &&a);
 	Integer operator +(const Integer & a)const;
 
+    operator int();
+
 	void operator ()();
 };
 Integer operator +(int x, const Integer &y);
